@@ -1,0 +1,50 @@
+{
+  "stage": 6,
+  "status": "passed",
+  "evaluation_type": "production reliability, observability and container acceptance",
+  "real_observability_smoke": {
+    "status_code": 200,
+    "route": "direct",
+    "input_tokens": 155,
+    "output_tokens": 225,
+    "total_tokens": 380,
+    "workflow_latency_ms": 9766.879,
+    "estimated_cost_usd": null,
+    "health_ok": true,
+    "ready_ok": true,
+    "request_id_propagated": true
+  },
+  "deterministic_acceptance": {
+    "structured_application_logs": true,
+    "failure_taxonomy": true,
+    "request_timeout": true,
+    "openai_timeout_and_retries": true,
+    "rate_limit": true,
+    "same_session_serialized": true,
+    "different_sessions_concurrent": true,
+    "token_cost_latency_trace": true,
+    "ruff_passed": true,
+    "mypy_passed_source_files": 38
+  },
+  "automated_tests": {
+    "passed": 62,
+    "failed": 0
+  },
+  "container_acceptance": {
+    "image": "agent-rag-api:stage6",
+    "compose_service_healthy": true,
+    "health_status_code": 200,
+    "ready_status_code": 200,
+    "request_id_propagated": true,
+    "pytorch_version": "2.14.0+cpu",
+    "cuda_runtime": null,
+    "persistent_volume": "agent-rag_knowledge_indexes"
+  },
+  "notes": [
+    "The saved reports contain no prompt, answer, document or chunk text.",
+    "Estimated cost is null until per-model input and output rates are configured.",
+    "Rate limiting, session locks and graph checkpoints remain process-local, so the container intentionally runs one worker.",
+    "A timed-out synchronous worker thread may finish in the background; same-session locking prevents overlapping session mutations.",
+    "Authentication, authorization and durable audit storage remain out of scope for this stage."
+  ]
+}

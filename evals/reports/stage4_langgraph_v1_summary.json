@@ -1,0 +1,50 @@
+{
+  "stage": 4,
+  "status": "passed",
+  "evaluation_type": "real LangGraph grounded-response smoke evaluation",
+  "dataset": "evals/cases.json",
+  "corpus": "evals/corpus/enterprise_chunks.json",
+  "case_count": 4,
+  "answerable_case_count": 2,
+  "unanswerable_case_count": 2,
+  "chat_model": "gpt-5-mini",
+  "embedding_model": "text-embedding-3-large",
+  "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "pass_rate": 1.0,
+  "citation_valid_rate": 1.0,
+  "gold_citation_recall": 1.0,
+  "answer_group_coverage": 1.0,
+  "unanswerable_refusal_rate": 1.0,
+  "p50_latency_ms": 23610.2,
+  "p95_latency_ms": 28489.4,
+  "architecture_checks": {
+    "orchestrator": "LangGraph StateGraph",
+    "required_node_count": 10,
+    "required_nodes_present": true,
+    "conditional_routing": true,
+    "insufficient_evidence_rewrite_retry": true,
+    "max_retries": 1,
+    "max_graph_steps": 12,
+    "checkpointer_multi_turn_state": true,
+    "thread_isolation_tested": true,
+    "invalid_citations_fail_closed": true,
+    "multi_agent": false,
+    "legacy_agent_executor_removed": true
+  },
+  "automated_tests": {
+    "passed": 53,
+    "failed": 0
+  },
+  "case_ids": [
+    "annual-leave",
+    "incident-evidence-retention",
+    "parental-leave",
+    "password-length"
+  ],
+  "notes": [
+    "The saved report contains no generated answer text or raw chunk text.",
+    "The checkpointer is process-local InMemorySaver; restart-durable state is not claimed.",
+    "Latency includes remote embedding and multiple chat-model calls and was affected by network variability.",
+    "This is a four-case Stage 4 smoke evaluation, not a claim of full-corpus answer accuracy."
+  ]
+}

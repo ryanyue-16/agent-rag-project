@@ -1,0 +1,29 @@
+{
+  "status": "legacy_baseline",
+  "description": "Dense-only FAISS baseline captured before the staged enterprise RAG upgrade.",
+  "limitations": [
+    "Uses five evaluation cases only.",
+    "Gold chunks were derived from keyword matching rather than manual annotation.",
+    "Must not be used as the final resume benchmark."
+  ],
+  "case_count": 5,
+  "mrr": 0.8,
+  "avg_retrieval_latency_ms": 269.4824784004595,
+  "by_k": {
+    "1": {
+      "hit_rate": 0.6,
+      "precision": 0.6,
+      "recall": 0.5
+    },
+    "2": {
+      "hit_rate": 1.0,
+      "precision": 0.6,
+      "recall": 0.9
+    },
+    "4": {
+      "hit_rate": 1.0,
+      "precision": 0.35,
+      "recall": 1.0
+    }
+  }
+}

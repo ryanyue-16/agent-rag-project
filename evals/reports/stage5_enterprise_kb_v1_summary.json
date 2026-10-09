@@ -1,0 +1,35 @@
+{
+  "stage": 5,
+  "status": "passed",
+  "evaluation_type": "enterprise knowledge-base persistence and lifecycle acceptance",
+  "real_pdf_smoke": {
+    "document_count": 3,
+    "retrieved_count": 3,
+    "same_version_after_restart": true,
+    "faiss_persisted": true,
+    "bm25_persisted": true,
+    "chunks_persisted": true,
+    "manifest_persisted": true
+  },
+  "deterministic_acceptance": {
+    "collection_scope_isolated": true,
+    "metadata_filtering": true,
+    "document_upload_view_delete": true,
+    "manual_rebuild": true,
+    "version_pointer_atomic_replace": true,
+    "failed_rebuild_keeps_previous_version": true,
+    "deleted_document_not_retrievable": true,
+    "restart_loads_persisted_indexes": true,
+    "ocr_supported": false
+  },
+  "automated_tests": {
+    "passed": 57,
+    "failed": 0
+  },
+  "notes": [
+    "The real smoke used local text-based PDFs and a real OpenAI embedding request.",
+    "The saved reports contain no raw document or chunk text.",
+    "Conversation checkpoints remain process-local; index and document persistence are restart-durable.",
+    "This stage does not claim OCR or user/role authorization."
+  ]
+}

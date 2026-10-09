@@ -1,0 +1,61 @@
+{
+  "status": "stage_1_baseline",
+  "retriever": "dense_faiss_index_flat_ip",
+  "embedding_model": "text-embedding-3-large",
+  "dataset": "evals/cases.json",
+  "corpus": "evals/corpus/enterprise_chunks.json",
+  "corpus_document_count": 10,
+  "corpus_chunk_count": 40,
+  "case_count": 55,
+  "answerable_case_count": 50,
+  "unanswerable_case_count": 5,
+  "mrr": 1.0,
+  "avg_retrieval_latency_ms": 1208.8413038523868,
+  "p50_retrieval_latency_ms": 986.5973339765333,
+  "p95_retrieval_latency_ms": 2202.063050010474,
+  "by_k": {
+    "1": {
+      "hit_rate": 1.0,
+      "precision": 1.0,
+      "recall": 0.9
+    },
+    "3": {
+      "hit_rate": 1.0,
+      "precision": 0.38,
+      "recall": 0.97
+    },
+    "5": {
+      "hit_rate": 1.0,
+      "precision": 0.228,
+      "recall": 0.97
+    }
+  },
+  "by_category": {
+    "confusable": {
+      "case_count": 9,
+      "mrr": 1.0,
+      "recall_at_5": 1.0
+    },
+    "exact": {
+      "case_count": 11,
+      "mrr": 1.0,
+      "recall_at_5": 1.0
+    },
+    "multi_hop": {
+      "case_count": 10,
+      "mrr": 1.0,
+      "recall_at_5": 0.85
+    },
+    "semantic": {
+      "case_count": 20,
+      "mrr": 1.0,
+      "recall_at_5": 1.0
+    }
+  },
+  "interpretation": [
+    "Single-evidence questions are easy for the dense baseline on this controlled corpus.",
+    "Multi-hop all-evidence recall is the primary measured quality gap for the hybrid-retrieval stage.",
+    "Latency includes a separate remote embedding request for every query and is not a local FAISS-only benchmark.",
+    "No resume improvement claim should be made until a later configuration beats this frozen baseline."
+  ]
+}

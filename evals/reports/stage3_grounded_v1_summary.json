@@ -1,0 +1,43 @@
+{
+  "stage": 3,
+  "status": "passed",
+  "evaluation_type": "real grounded-response smoke evaluation",
+  "dataset": "evals/cases.json",
+  "corpus": "evals/corpus/enterprise_chunks.json",
+  "case_count": 4,
+  "answerable_case_count": 2,
+  "unanswerable_case_count": 2,
+  "chat_model": "gpt-5-mini",
+  "embedding_model": "text-embedding-3-large",
+  "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "pass_rate": 1.0,
+  "citation_valid_rate": 1.0,
+  "gold_citation_recall": 1.0,
+  "unanswerable_refusal_rate": 1.0,
+  "p50_latency_ms": 21479.2,
+  "p95_latency_ms": 31950.2,
+  "architecture_checks": {
+    "search_tool_returns_structured_evidence": true,
+    "search_tool_generates_answer": false,
+    "document_answer_generation_stages": 1,
+    "citation_fields_validated": [
+      "source",
+      "page",
+      "chunk_id"
+    ],
+    "invalid_citations_fail_closed": true,
+    "unsupported_answers_use_canonical_refusal": true
+  },
+  "case_ids": [
+    "annual-leave",
+    "incident-evidence-retention",
+    "parental-leave",
+    "password-length"
+  ],
+  "notes": [
+    "The evaluation covers English and Chinese, single-hop and multi-hop evidence, and answerable and unanswerable questions.",
+    "The saved report contains no generated answer text or raw chunk text.",
+    "Latency includes remote embedding and chat requests and was affected by network variability.",
+    "This is a Stage 3 smoke evaluation, not a claim of full-corpus answer accuracy."
+  ]
+}

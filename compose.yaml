@@ -1,0 +1,50 @@
+name: agent-rag
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: agent-rag-api:stage6
+
+    container_name: agent-rag-api
+    restart: unless-stopped
+    stop_grace_period: 30s
+
+    # 将宿主机 .env 中的变量注入容器环境。
+    # .env 本身不会被 COPY 到镜像中。
+    env_file:
+      - .env
+
+    ports:
+      - "8000:8000"
+
+    # PDF 保留在宿主机，通过只读 bind mount 提供给容器。
+    # 这样更换 PDF 不需要重新 build 镜像。
+    volumes:
+      - type: bind
+        source: ./data/pdfs
+        target: /app/data/pdfs
+        read_only: true
+
+      # 第 11 课：评估集在宿主机可直接编辑，
+      # 不需要每改一道题就重新 build image。
+      - type: bind
+        source: ./evals/cases.json
+        target: /app/evals/cases.json
+        read_only: true
+
+      # 第 11 课：评估报告持久化到项目目录。
+      - type: bind
+        source: ./evals/reports
+        target: /app/evals/reports
+
+      # Collection documents and versioned FAISS/BM25 indexes survive
+      # container replacement.
+      - type: volume
+        source: knowledge_indexes
+        target: /app/data/indexes
+
+volumes:
+  knowledge_indexes:

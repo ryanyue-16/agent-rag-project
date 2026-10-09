@@ -1,0 +1,41 @@
+{
+  "stage": 7,
+  "status": "passed",
+  "evaluation_type": "documentation and resume-claim acceptance",
+  "documents": [
+    "docs/architecture.md",
+    "docs/evaluation.md",
+    "docs/failure-analysis.md",
+    "docs/resume.md"
+  ],
+  "verified_resume_values": {
+    "benchmark_query_count": 55,
+    "retrieval_metric_query_count": 50,
+    "dense_recall_at_5": 0.97,
+    "hybrid_rerank_recall_at_5": 1.0,
+    "dense_multi_hop_recall_at_5": 0.85,
+    "hybrid_rerank_multi_hop_recall_at_5": 1.0,
+    "retrieval_modes": 4,
+    "automated_tests_passed": 62
+  },
+  "explicitly_unclaimed": [
+    "routing accuracy",
+    "full-benchmark answer accuracy",
+    "semantic entailment of every citation",
+    "durable conversation state",
+    "distributed scalability",
+    "OCR support",
+    "production SLA or QPS",
+    "measured monetary cost"
+  ],
+  "acceptance": {
+    "resume_numbers_match_frozen_reports": true,
+    "benchmark_table_includes_latency_context": true,
+    "failure_analysis_documents_observed_misses": true,
+    "architecture_documents_state_and_trust_boundaries": true,
+    "ruff_passed": true,
+    "mypy_source_files_passed": 38,
+    "pytest_passed": 62,
+    "pytest_failed": 0
+  }
+}

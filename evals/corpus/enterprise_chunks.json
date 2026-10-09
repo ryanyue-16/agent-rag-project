@@ -1,0 +1,242 @@
+[
+  {
+    "chunk_id": "employee-handbook-p1-c0",
+    "source": "employee-handbook.pdf",
+    "page": 1,
+    "text": "Employee Handbook — Working hours. The standard working week is 37.5 hours, normally from 09:00 to 17:30 Monday to Friday with a one-hour unpaid lunch break. Flexible start times between 08:00 and 10:00 require manager approval."
+  },
+  {
+    "chunk_id": "employee-handbook-p2-c0",
+    "source": "employee-handbook.pdf",
+    "page": 2,
+    "text": "Employee Handbook — Annual leave. Full-time employees receive 25 days of paid annual leave per calendar year in addition to public holidays. Requests for five or more consecutive working days must be submitted at least four weeks in advance."
+  },
+  {
+    "chunk_id": "employee-handbook-p3-c0",
+    "source": "employee-handbook.pdf",
+    "page": 3,
+    "text": "Employee Handbook — Probation. New employees complete a six-month probation period. A manager may extend probation once for up to three months when additional performance evidence is required."
+  },
+  {
+    "chunk_id": "employee-handbook-p4-c0",
+    "source": "employee-handbook.pdf",
+    "page": 4,
+    "text": "Employee Handbook — Sickness absence. Employees must notify their manager before 09:30 on the first day of sickness. A fit note is required when an absence lasts more than seven consecutive calendar days."
+  },
+  {
+    "chunk_id": "security-policy-p1-c0",
+    "source": "information-security-policy.pdf",
+    "page": 1,
+    "text": "Information Security Policy — Authentication. Multi-factor authentication is mandatory for email, source control, cloud consoles and all remote access. Shared user accounts are prohibited unless a documented technical exception has been approved by Security."
+  },
+  {
+    "chunk_id": "security-policy-p2-c0",
+    "source": "information-security-policy.pdf",
+    "page": 2,
+    "text": "Information Security Policy — Leavers. The line manager must inform IT of a departure. Interactive access must be disabled no later than the employee's termination time, and service credentials owned by the leaver must be rotated within 24 hours."
+  },
+  {
+    "chunk_id": "security-policy-p3-c0",
+    "source": "information-security-policy.pdf",
+    "page": 3,
+    "text": "Information Security Policy — Incident reporting. Suspected phishing, credential disclosure, malware or unauthorised access must be reported to the Security Operations channel within one hour of discovery. Employees must not investigate suspected malware themselves."
+  },
+  {
+    "chunk_id": "security-policy-p4-c0",
+    "source": "information-security-policy.pdf",
+    "page": 4,
+    "text": "Information Security Policy — Devices and data. Confidential company data must not be copied to personal devices or consumer file-sharing services. Company laptops must use full-disk encryption and automatically lock after ten minutes of inactivity."
+  },
+  {
+    "chunk_id": "remote-work-p1-c0",
+    "source": "remote-work-policy.pdf",
+    "page": 1,
+    "text": "Remote Work Policy — Eligibility. Employees may request regular remote work after completing probation. Approved employees may work remotely for up to three days per week; fully remote arrangements require written approval from the department director and People team."
+  },
+  {
+    "chunk_id": "remote-work-p2-c0",
+    "source": "remote-work-policy.pdf",
+    "page": 2,
+    "text": "Remote Work Policy — Location and availability. Remote workers must work from the country stated in their employment agreement unless Legal and People approve a temporary overseas arrangement. They must remain reachable during their team's documented core collaboration hours."
+  },
+  {
+    "chunk_id": "remote-work-p3-c0",
+    "source": "remote-work-policy.pdf",
+    "page": 3,
+    "text": "Remote Work Policy — Network security. Public or shared Wi-Fi may be used only through the company VPN. Confidential calls must not be held where unauthorised people can hear them, and printed confidential documents must be securely destroyed."
+  },
+  {
+    "chunk_id": "remote-work-p4-c0",
+    "source": "remote-work-policy.pdf",
+    "page": 4,
+    "text": "Remote Work Policy — Equipment. The company provides one laptop, monitor, keyboard and mouse for an approved home workspace. Internet subscriptions and home-office furniture are not reimbursed unless required as a documented workplace adjustment."
+  },
+  {
+    "chunk_id": "travel-expense-p1-c0",
+    "source": "travel-and-expense-policy.pdf",
+    "page": 1,
+    "text": "Travel and Expense Policy — Approval. Domestic trips expected to cost more than GBP 500 require manager approval before booking. All international travel requires both manager and department director approval regardless of cost."
+  },
+  {
+    "chunk_id": "travel-expense-p2-c0",
+    "source": "travel-and-expense-policy.pdf",
+    "page": 2,
+    "text": "Travel and Expense Policy — Receipts and deadlines. Itemised receipts are required for individual expenses above GBP 25. Expense claims must be submitted within 30 calendar days after the expense was incurred."
+  },
+  {
+    "chunk_id": "travel-expense-p3-c0",
+    "source": "travel-and-expense-policy.pdf",
+    "page": 3,
+    "text": "Travel and Expense Policy — Air travel. Economy class is required for flights of eight hours or less. Premium economy may be booked for longer flights with manager approval; business class requires department director approval and a documented business justification."
+  },
+  {
+    "chunk_id": "travel-expense-p4-c0",
+    "source": "travel-and-expense-policy.pdf",
+    "page": 4,
+    "text": "Travel and Expense Policy — Meals. The daily meal allowance is GBP 60 in the United Kingdom and GBP 80 for international travel. Alcohol is not reimbursable except at a pre-approved client event."
+  },
+  {
+    "chunk_id": "data-retention-p1-c0",
+    "source": "data-retention-policy.pdf",
+    "page": 1,
+    "text": "Data Retention Policy — Customer contracts and billing records. Executed customer contracts, invoices and associated billing records are retained for seven years after the end of the customer relationship, unless Legal issues a hold requiring longer retention."
+  },
+  {
+    "chunk_id": "data-retention-p2-c0",
+    "source": "data-retention-policy.pdf",
+    "page": 2,
+    "text": "Data Retention Policy — Recruitment. Unsuccessful candidate records are deleted 12 months after the recruitment decision. A candidate may request earlier deletion unless the record is needed to establish or defend a legal claim."
+  },
+  {
+    "chunk_id": "data-retention-p3-c0",
+    "source": "data-retention-policy.pdf",
+    "page": 3,
+    "text": "Data Retention Policy — Technical logs. Standard application and infrastructure logs are retained for 90 days. Security incident logs may be moved to a restricted evidence store and retained for up to two years."
+  },
+  {
+    "chunk_id": "data-retention-p4-c0",
+    "source": "data-retention-policy.pdf",
+    "page": 4,
+    "text": "Data Retention Policy — Legal hold. A legal hold suspends normal deletion for the identified records. Only Legal may release a hold; system owners must resume the standard retention schedule after receiving written release."
+  },
+  {
+    "chunk_id": "incident-response-p1-c0",
+    "source": "incident-response-plan.pdf",
+    "page": 1,
+    "text": "Incident Response Plan — Severity. A Priority 1 incident causes complete loss of a critical customer service, confirmed large-scale data exposure or an active compromise of privileged systems. Limited degradation with a workaround is normally Priority 2."
+  },
+  {
+    "chunk_id": "incident-response-p2-c0",
+    "source": "incident-response-plan.pdf",
+    "page": 2,
+    "text": "Incident Response Plan — Response targets. The on-call incident commander must acknowledge Priority 1 incidents within 15 minutes and Priority 2 incidents within one hour. These are acknowledgement targets, not resolution guarantees."
+  },
+  {
+    "chunk_id": "incident-response-p3-c0",
+    "source": "incident-response-plan.pdf",
+    "page": 3,
+    "text": "Incident Response Plan — Roles. The incident commander coordinates response and decisions. The communications lead owns internal and customer updates. The scribe maintains the timeline, evidence links and decision log."
+  },
+  {
+    "chunk_id": "incident-response-p4-c0",
+    "source": "incident-response-plan.pdf",
+    "page": 4,
+    "text": "Incident Response Plan — Review. A blameless post-incident review is required for every Priority 1 incident and must be completed within five working days after resolution. Corrective actions need named owners and due dates."
+  },
+  {
+    "chunk_id": "procurement-p1-c0",
+    "source": "procurement-policy.pdf",
+    "page": 1,
+    "text": "Procurement Policy — Security review. A new supplier that will process confidential data or connect to company systems requires Security review regardless of contract value. Other purchases above GBP 10,000 require a procurement review."
+  },
+  {
+    "chunk_id": "procurement-p2-c0",
+    "source": "procurement-policy.pdf",
+    "page": 2,
+    "text": "Procurement Policy — Competition. Purchases above GBP 50,000 normally require at least three competitive written bids. The CFO may approve a sole-source exception when a documented operational or technical reason prevents competition."
+  },
+  {
+    "chunk_id": "procurement-p3-c0",
+    "source": "procurement-policy.pdf",
+    "page": 3,
+    "text": "Procurement Policy — Conflicts. Employees involved in supplier selection must disclose personal, family or financial relationships with a bidder. Procurement will decide whether the employee must be removed from the decision."
+  },
+  {
+    "chunk_id": "procurement-p4-c0",
+    "source": "procurement-policy.pdf",
+    "page": 4,
+    "text": "Procurement Policy — Renewals. Contract owners must review usage, performance, security status and continued business need at least 60 days before an automatic renewal date. Renewals are not exempt from approval thresholds."
+  },
+  {
+    "chunk_id": "support-sla-p1-c0",
+    "source": "customer-support-sla.pdf",
+    "page": 1,
+    "text": "Customer Support SLA — Priority 1. For a production service that is completely unavailable with no workaround, Support targets an initial response within 15 minutes and restoration or an acceptable workaround within four hours."
+  },
+  {
+    "chunk_id": "support-sla-p2-c0",
+    "source": "customer-support-sla.pdf",
+    "page": 2,
+    "text": "Customer Support SLA — Priority 2. For severe degradation where core functions remain available, Support targets an initial response within one hour and restoration or an acceptable workaround within one business day."
+  },
+  {
+    "chunk_id": "support-sla-p3-c0",
+    "source": "customer-support-sla.pdf",
+    "page": 3,
+    "text": "Customer Support SLA — Availability. The monthly production availability target is 99.9 percent. Scheduled maintenance announced at least 72 hours in advance and customer-caused outages are excluded from the availability calculation."
+  },
+  {
+    "chunk_id": "support-sla-p4-c0",
+    "source": "customer-support-sla.pdf",
+    "page": 4,
+    "text": "Customer Support SLA — Escalation. A customer may request escalation when a response target is missed or business impact increases. The support manager owns escalation coordination; escalation does not automatically change incident priority."
+  },
+  {
+    "chunk_id": "onboarding-p1-c0",
+    "source": "employee-onboarding-guide.pdf",
+    "page": 1,
+    "text": "Employee Onboarding Guide — Accounts. IT creates the corporate email, identity provider and source-control accounts before the employee's first working day. Access to production systems requires a separate manager-approved request after the employee starts."
+  },
+  {
+    "chunk_id": "onboarding-p2-c0",
+    "source": "employee-onboarding-guide.pdf",
+    "page": 2,
+    "text": "Employee Onboarding Guide — Training. New starters must complete security awareness and data protection training within seven calendar days of joining. Secure coding training is additionally required within 30 days for engineers."
+  },
+  {
+    "chunk_id": "onboarding-p3-c0",
+    "source": "employee-onboarding-guide.pdf",
+    "page": 3,
+    "text": "Employee Onboarding Guide — Reviews. Managers conduct structured onboarding check-ins after 30, 60 and 90 days. These check-ins support onboarding and do not replace the formal six-month probation review."
+  },
+  {
+    "chunk_id": "onboarding-p4-c0",
+    "source": "employee-onboarding-guide.pdf",
+    "page": 4,
+    "text": "Employee Onboarding Guide — Equipment. The hiring manager submits equipment requirements at least ten working days before the start date. Standard equipment is a laptop, monitor, keyboard, mouse and headset."
+  },
+  {
+    "chunk_id": "privacy-notice-p1-c0",
+    "source": "privacy-notice.pdf",
+    "page": 1,
+    "text": "Privacy Notice — Data subject requests. Requests to access, correct or delete personal data must be sent to the Privacy team. The company aims to respond within one calendar month after verifying identity, subject to lawful extensions."
+  },
+  {
+    "chunk_id": "privacy-notice-p2-c0",
+    "source": "privacy-notice.pdf",
+    "page": 2,
+    "text": "Privacy Notice — Processing purposes. Employee data is processed for payroll, benefits, security, legal compliance and workforce administration. Marketing consent is not used as the legal basis for mandatory employment processing."
+  },
+  {
+    "chunk_id": "privacy-notice-p3-c0",
+    "source": "privacy-notice.pdf",
+    "page": 3,
+    "text": "Privacy Notice — Service providers. Approved subprocessors may handle personal data under written data-processing terms. The company remains responsible for selecting providers with appropriate technical and organisational safeguards."
+  },
+  {
+    "chunk_id": "privacy-notice-p4-c0",
+    "source": "privacy-notice.pdf",
+    "page": 4,
+    "text": "Privacy Notice — Complaints. Individuals should first contact the Privacy team about a concern. They also retain the right to complain to the relevant supervisory authority and are not required to exhaust the internal process first."
+  }
+]
